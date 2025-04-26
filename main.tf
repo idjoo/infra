@@ -7,9 +7,9 @@ terraform {
 }
 
 provider "oci" {
-  region              = "ap-singapore-1"
   auth                = "SecurityToken"
   config_file_profile = "DEFAULT"
+  region              = "ap-singapore-1"
 }
 
 module "master" {
